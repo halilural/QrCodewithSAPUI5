@@ -14,7 +14,7 @@ sap.ui.define([
 				type: sap.ui.core.mvc.ViewType.XML
 			},
 			"dependencies": {
-				"libs": ["sap.ui.core", "sap.m", "sap.ui.layout"]
+				"libs": ["sap.ui.core", "sap.m", "sap.ui.layout","sap.ui.commons","sap.suite.ui.commons"]
 			},
 			"config": {
 				"i18nBundle": "com.halilural.qrcodewithsapui5QrCodeApplication.i18n.i18n",
