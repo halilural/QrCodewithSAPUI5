@@ -61,7 +61,7 @@ sap.ui.define([
 				value: this._oView.getModel().getData().Street
 			});
 			aQueryString.push({
-				key: "No",
+				key: "no",
 				value: this._oView.getModel().getData().HouseNumber
 			});
 			aQueryString.push({
@@ -69,11 +69,11 @@ sap.ui.define([
 				value: this._oView.getModel().getData().ZIPCode
 			});
 			aQueryString.push({
-				key: "City",
+				key: "city",
 				value: this._oView.getModel().getData().City
 			});
 			aQueryString.push({
-				key: "Country",
+				key: "country",
 				value: this._oView.getModel().getData().SelectedCountry
 			});
 
